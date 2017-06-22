@@ -1,0 +1,69 @@
+<html>
+<head><title>faculty check student list</title>
+</head>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style2 {color: #993366}
+.style3 {color: #FFFF00}
+.style5 {color: #FF33FF}
+.style8 {color: #FF33FF; font-weight: bold; }
+.style9 {color: #FFFFFF}
+-->
+</style>
+
+<body  background="img/background1.JPG"><form method="post" action="mark.php">
+<font size="+2" color="#FF0000" face="Verdana, Arial, Helvetica, sans-serif" >
+<center>FOR FACULTY USAGE</center></font>
+<br /><br />
+<div id="menu">
+    <ul>
+      <li><a href="add_student.php"><span class="style2"><span class="style3">ADD STUDENT</span>&nbsp;</span>&nbsp;</a></li>
+	  
+      <li><a href="delete_student.php"><span class="style3">DELETE STUDENT</span>&nbsp;&nbsp;</a></li>
+    </ul>
+  </div><br /><br /><br /><a href="front.php"><img src="images/AQUA ICONS SYSTEM HOUSE.png" width="64" height="64" alt="home" />HOME</a>
+ &nbsp; &nbsp; <font color="#00FF00" size="+2">Go for entering attendance record</font><br /><br />
+&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>
+<span class="style5">Class :&nbsp;&nbsp;&nbsp;</span></strong>   <span class="style8">&nbsp;</span><span class="style5">&nbsp;&nbsp;</span>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <select name="class">
+                       <option value="LKG">LKG</option>
+					   <option value="UKG">UKG</option>
+                       <option value="1">1</option>
+					   <option value="2">2</option>	
+					   <option value="3">3</option>	
+					   <option value="4">4</option>	
+					   <option value="5">5</option>	
+					   <option value="6">6</option>	
+					   <option value="7">7</option>	
+					   <option value="8">8</option>	
+					   <option value="9">9</option>	
+					   <option value="10">10</option>
+					   <option value="11">11</option>	
+					   <option value="12">12</option>		
+					   
+					 </select><br /><br /><br />&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <span class="style8">Section :  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <select name="sec">
+                       
+                       <option value= "A" >A</option>
+                       <option value= "B" >B</option>
+					   <option value= "C" >C</option>
+                       <option value= "D" >D</option>		
+                     </select>
+                     <br />   <br /><br /> 
+ 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<span class="style8"> Subject :&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <select name="sub">
+                   
+                       <option value="sub1" >Subject I </option>
+					   <option value="sub2">Subject II </option>
+					   <option value="sub3" >Subject III</option>
+					   <option value="sub4">Subject IV</option>
+					   <option value="sub5">Subject V</option>
+					   <option value="sub6" >Subject VI</option>
+					   </select><br />	<br /><br />
+					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 								 
+   <input type="submit" class="style2" >
+</form>
+</body>
+</html>
